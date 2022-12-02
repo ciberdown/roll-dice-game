@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>roll Dice</title>
+    <link rel="stylesheet" href="roll2.css">
+</head>
+<body>
+    <div class="flexbox">
+        <div class="">
+            <img class="images" src="img/one.png" alt="" id="one"><br />
+            <img class="hidden images" src="img/two.png" alt="" id="two"><br />
+            <img class="hidden images" src="img/three.png" alt="" id="three"><br />
+            <img class="hidden images" src="img/four.png" alt="" id="four"><br />
+            <img class="hidden images" src="img/five.png" alt="" id="five"><br />
+            <img class="hidden images" src="img/six.png" alt="" id="six"><br />
+        </div>
+        <div>
+            <button class="button" type="button" id="hold">Hold</button><br />
+        </div>
+        <div>
+            <button class="button" id="start">Start Game</button>
+            <button class="button" type="button" id="rollDice">Roll Dice</button>
+        </div>
+        <div class="p1select">
+            <button class ='disp' id="p1C">select player 1:</button>
+            <p class = 'disp2' id="p1Total" >total score (player 1)</p>
+        </div>
+        <div class="p2select">
+            <button class = 'disp' id="p2C">select player 2:</button>
+            <p class = 'disp2' id="p2Total">total score (player 2)</p>
+        </div>
+        <div>
+            <img  class="blue" src="img/blue_color.jpg">
+        </div>
+        <div>
+            <img  class="red" src="img/red_color.jpg">
+        </div>
+        <div class="score1">
+            <p class = 'disp2'>score player 1:</p><br />
+            <p class = 'disp2' id="p1">0</p><br />
+        </div>
+        <div class="score2">
+            <p class = 'disp2'>score player 2:</p><br />
+            <p class = 'disp2' id="p2">0</p><br />
+        </div>
+    </div>
+    
+
+    <script src="rollDice.js"></script>
+</body>
+</html>

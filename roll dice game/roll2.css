@@ -1,0 +1,155 @@
+body{
+    font:italic;
+    font-size: 30px;
+}
+body .flexbox{
+    display: flex;
+}
+body div .blue{
+    width: 100%;
+    height: 800px;
+}
+body div .red{
+    width: 100%;
+    height: 800px;
+}
+button{
+    text-align: center;
+    font:italic;
+    font-size: 30px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+#start{
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    position:absolute;
+    text-align: center;
+    width: 200px;
+    height: 60px;
+    font:italic;
+    font-size: 30px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+#rollDice{
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+    position:absolute;
+    text-align: center;
+    width: 200px;
+    height: 80px;
+    font:italic;
+    font-size: 30px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+#p1C{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 100px;
+}
+#p1Total{
+    background-color: bisque;
+    height: auto;
+    width: auto;
+    border-radius: 5px;
+    padding: 10px;
+    font:italic;
+}
+.p1select{
+    margin-top: 100px;
+    position:absolute ;
+    left: 20px;
+    width: 200px;
+    height: auto;
+    text-align: center;
+    font: optional;
+}
+#p2C{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 100px;
+}
+#p2Total{
+    background-color: bisque;
+    height: auto;
+    width: auto;
+    border-radius: 5px;
+    padding: 10px;
+    font:italic;
+}
+.p2select{
+    margin-top: 100px;
+    position:absolute ;
+    right: 20px;
+    width: 200px;
+    height: auto;
+    text-align: center;
+    font: optional;
+}
+
+.hidden{
+    display: none;
+}
+.images{
+    z-index: 1;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 400px;
+    border-radius: 30px;
+}
+#hold{
+    position: absolute;
+    z-index: 1;
+    right: 0px;
+    left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    width: 300px;
+    height: 60px;
+    top: 700px;
+}
+.score1{
+    position: absolute;
+    background-color: antiquewhite;
+    text-align: center;
+    align-content: center;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    top: 400px;
+    left: 20px;
+}
+#p1{
+    background-color:chocolate;
+    border-radius: 50px;
+}
+.score2{
+    position: absolute;
+    background-color: antiquewhite;
+    text-align: center;
+    align-content: center;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    top: 400px;
+    right: 20px;
+}
+#p2{
+    background-color:chocolate;
+    border-radius: 50px;
+}
